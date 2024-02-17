@@ -1,0 +1,220 @@
+.page-break {
+    page-break-before: always;
+  }
+
+.container-fluid {
+    padding: 16px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.introduction {
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.comeon h1{
+    margin-top: 25%;
+    color: black;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:yellow;
+}
+.navbar a {
+    float: right;
+    display:block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+.navbar a:hover {
+    background-color: red;
+    color: aliceblue;
+}
+.navbar a {
+    text-align: center;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large ;
+}
+
+
+.image-container {
+    float:left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color:aliceblue;
+    height:auto;
+    font-size: x-large;
+    width: 30%;
+}
+.image-container:hover {
+    background-color:#FFFFFF;
+}
+.image-container img {
+    display: block;
+    margin: 0;
+    align-self: flex-start;
+    width: 400px;
+    height: 400px;
+  }
+
+h1 {
+    text-align: center;
+    text-decoration: double;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+
+img {
+    padding-left: 20%;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+.Welcome h3 {
+    margin-top: 45%;
+    font-size: xxx-large;
+    text-align: center;
+}
+.container1 {
+    margin-left: 20%;
+}
+.container1 .design p7{
+    text-align:center;
+    font-size: 70px;
+    color: red;
+}
+.container1 .design p8 {
+    font-size: x-large;
+}
+
+.container2 {
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.container2 .design2 p7{
+    text-align:center;
+    font-size: 70px;
+    color: red;
+}
+.container2 .design2 p8 {
+    font-size: x-large;
+}
+
+.container3 {
+    margin-left: 60%;
+    margin-top: 0px;
+}
+.container3 .design3 p7{
+    text-align:center;
+    font-size: 70px;
+    color: red;
+}
+.container3 .design3 p8 {
+    font-size: x-large;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+    font-size: xx-large;
+    background-color:azure;
+
+}
+.login-page h2 {
+    font-size: xxx-large;
+    color: red;
+}
+.login-page p {
+    color: red;
+}
+
+/* Dinner style page */
+.dinner {
+    font-size: xx-large;
+    color:black;
+}
+
+.image-container1 {
+    float:left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color:aliceblue;
+    height:auto;
+    font-size: x-large;
+    width: 30%;
+}
+.image-container1 img {
+    width: 100%;
+
+}
+.bye  {
+    margin-top: 160%;
+}
+
+/* Snacks Style */
+.snacky h2 {
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.tata {
+    margin-top: 110%;
+}
+
+/* lunch style */
+.lunchy h4 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.boii h1 {
+    margin-top: 160%;
+
+}
+
+/* Brunch Style */
+.brunchy h2 {
+    font-size: xx-large;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.order-container {
+    font-size:medium;
+}
+.order-container h2 {
+    color: red;
+
+}
+
+/* breakfast style */
+.breakfast h1 {
+    color: red;
+    text-align: center;
+    font-size: xxx-large;
+}
+.breakfast h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+

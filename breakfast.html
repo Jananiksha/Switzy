@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your Breakfast here</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="breakfast">
+        <h1> Choose Your BreakFast here!!</h1>
+        <h2> Want some Energy ?? <br> Here are some of the Energitic dishes you can order for !!</h2>
+    </div>
+
+    <div class="image-container1">
+        <img src="./malabar.jpg" alt="Parotta image">
+        <div class="hoving"> 
+            <p> Malabar Parotta</p><br>
+            <p1>Click here to order!!</p1> 
+        </div>
+        <div class="order-container" id="malabar-order">
+            <h2>Order Malabar Parotta</h2>
+            <form action="order.php" method="post">
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br>
+                <input type="submit" value="Order Now">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
